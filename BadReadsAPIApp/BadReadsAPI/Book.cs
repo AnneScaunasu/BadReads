@@ -29,15 +29,6 @@ namespace BadReadsAPI
         public string Author { get; set; } = string.Empty;
         public float Rating { get; set; }
         public BookType Type { get; set; } = BookType.UNDEFINED;
-        public Book() { }
-        public Book(int id, string title, string description, string author, float rating, BookType type)
-        {
-            Id = id;
-            Title = title;
-            Description = description;
-            Author = author;
-            Rating = rating;
-            Type = type;
-        }
+        public ICollection<Comment> Comments { get; set; } = new List<Comment>();
     }
 }

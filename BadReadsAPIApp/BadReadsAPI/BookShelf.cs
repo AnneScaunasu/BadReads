@@ -8,7 +8,7 @@ namespace BadReadsAPI
         [StringLength(50)]
         public string Name { get; set; } = string.Empty;
         public int BookId { get; set; }
-        public Book? Book { get; set; }
+        public ICollection<Book> Books { get; set; }
         public int UserId { get; set; }
         public User User { get; set; }
     }

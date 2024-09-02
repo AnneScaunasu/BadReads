@@ -13,7 +13,10 @@
           "Microsoft.EntityFrameworkCore.Design": "6.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration": "6.0.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "6.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "6.0.0",
           "Swashbuckle.AspNetCore": "6.7.3"
         },
         "runtime": {

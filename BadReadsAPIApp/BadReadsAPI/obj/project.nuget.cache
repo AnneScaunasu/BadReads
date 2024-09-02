@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "46CYehxyOSJkrAzLJDAgh6CPmVcfm9lN3yZEWUghOvPZ8DYdWzv78XIs6eSnycKl5Ha9+YL1jA/W+qKaGP8hGQ==",
+  "dgSpecHash": "69gZG0EaF2cqEaKKlc9BqOLzsWi7VjygBNqApu1GAklFkf4BBkMNKDUU/kfZWpiiuN722pR2kf6J87m6teXIPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anne\\Desktop\\Facultate\\Sem_1\\DAW\\BadReadsAPIApp\\BadReadsAPI\\BadReadsAPI.csproj",
+  "projectFilePath": "C:\\Users\\Anne\\Desktop\\Facultate\\Sem_1\\DAW\\BadReads\\BadReadsAPIApp\\BadReadsAPI\\BadReadsAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anne\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Anne\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

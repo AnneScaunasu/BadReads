@@ -10550,11 +10550,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anne\\Desktop\\Facultate\\Sem_1\\DAW\\BadReadsAPIApp\\BadReadsAPI\\BadReadsAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Anne\\Desktop\\Facultate\\Sem_1\\DAW\\BadReads\\BadReadsAPIApp\\BadReadsAPI\\BadReadsAPI.csproj",
       "projectName": "BadReadsAPI",
-      "projectPath": "C:\\Users\\Anne\\Desktop\\Facultate\\Sem_1\\DAW\\BadReadsAPIApp\\BadReadsAPI\\BadReadsAPI.csproj",
+      "projectPath": "C:\\Users\\Anne\\Desktop\\Facultate\\Sem_1\\DAW\\BadReads\\BadReadsAPIApp\\BadReadsAPI\\BadReadsAPI.csproj",
       "packagesPath": "C:\\Users\\Anne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anne\\Desktop\\Facultate\\Sem_1\\DAW\\BadReadsAPIApp\\BadReadsAPI\\obj\\",
+      "outputPath": "C:\\Users\\Anne\\Desktop\\Facultate\\Sem_1\\DAW\\BadReads\\BadReadsAPIApp\\BadReadsAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Anne\\AppData\\Roaming\\NuGet\\NuGet.Config",
