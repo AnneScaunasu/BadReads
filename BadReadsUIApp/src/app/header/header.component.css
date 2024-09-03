@@ -1,0 +1,15 @@
+.header {
+    background-color: bisque;
+    color:brown;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.header-title {
+    grid-column: 1/3;
+    padding-left: 20px;
+}
+
+.header-buttons {
+    grid-column: 4/6;
+}

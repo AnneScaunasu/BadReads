@@ -1,0 +1,21 @@
+<div class="container mt-4">
+    <h2>Bookshelves</h2>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let shelf of bookshelves">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{ shelf.name }}</h5>
+            <button class="btn btn-primary" (click)="viewBooks(shelf)">View Books</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <button class="btn btn-primary" (click)="createNewBookshelf()">+ Add New Bookshelf</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

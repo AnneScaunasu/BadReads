@@ -43,6 +43,23 @@ namespace BadReadsAPI.Controllers
             return bookShelf;
         }
 
+        // GET: api/bookShelves/user/5
+        [HttpGet("user/{id}")]
+        public async Task<ActionResult<BookShelf>> GetBookShelfByUserId(int id)
+        {
+            var bookShelf = await _context.BookShelfs
+                .Include(bs => bs.Books)
+                .Include(bs => bs.User)
+                .FirstOrDefaultAsync(bs => bs.User.Id == id);
+
+            if (bookShelf == null)
+            {
+                return NotFound();
+            }
+
+            return bookShelf;
+        }
+
         // POST: api/bookShelves
         [HttpPost]
         public async Task<ActionResult<BookShelf>> CreateBookShelf(BookShelf bookShelf)
